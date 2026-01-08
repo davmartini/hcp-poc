@@ -45,4 +45,5 @@ During this PoC, 9 servers will be used with this repartition :
 
 ## Architecture
 
+![archi](schema/hcp-poc.png)
 
