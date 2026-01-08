@@ -43,6 +43,14 @@ During this PoC, 9 servers will be used with this repartition :
 | VLAN02 | 192.168.2.0/24 | Application network zone 01 | OpenShift worker VMs traffic | BOND1 | eth1, eth3 | Mandatory |
 | VLAN03 | 192.168.3.0/24 | Application network zone 02 | OpenShift worker VMs traffic | BOND1 | eth1, eth3 | Mandatory |
 
+## Bare Metal server config
+
+* x86 server
+* RAID1 interal disk
+* 4 Ethernet NICs
+* 2 FC cards
+* 2 LUNs mapped 
+
 ## Architecture
 ![archi](schema/hcp-poc.png)
 
