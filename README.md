@@ -36,7 +36,13 @@ During this PoC, 9 servers will be used with this repartition :
 
 ## Network
 
-
+### Three underlay VLANs (CIDR)
+| VLAN  | CIDR | Role | Usage | BOND | Physical interfaces | DHCP |
+| --- | --- | --- | --- | --- | --- | --- |
+| VLAN01 | 192.168.1.0/24 | Infrastructure network | OpenShift nodes, SDN traffic, Storage replication | BOND0 | eth0, eth2 | Optionnal |
+| VLAN02 | 192.168.2.0/24 | Application network zone 01 | OpenShift worker VMs traffic | BOND1 | eth1, eth3 | Mandatory |
+| VLAN03 | 192.168.3.0/24 | Application network zone 02 | OpenShift worker VMs traffic | BOND1 | eth1, eth3 | Mandatory |
 
 ## Architecture
+
 
