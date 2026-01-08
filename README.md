@@ -32,7 +32,7 @@ During this PoC, 9 servers will be used with this repartition :
 ### OpenShift Data Foundation (ODF):
     - 16 LUNs on 8 servers (2 per server)
     - 8 LUNs of 512Go per DC
-    - RF4 = 8*512/4 = 1To for workload
+    - RF4 = 16*512/4 = 2To for workload
 
 ## Network
 
