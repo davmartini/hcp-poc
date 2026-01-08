@@ -25,11 +25,11 @@ During this PoC, 9 servers will be used with this repartition :
 
 ## Storage
 
-###Two storage types :
+### Two storage types :
     - Non replicated Local Storage (Managed Etcd Pods)
     - ODF SDS Storage (all other needs) 
 
-###OpenShift Data Foundation (ODF):
+### OpenShift Data Foundation (ODF):
     - 16 LUNs on 8 servers (2 per server)
     - 8 LUNs of 512Go per DC
     - RF4 = 8*512/4 = 1To for workload
