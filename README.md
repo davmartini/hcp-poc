@@ -47,7 +47,7 @@ During this PoC, 9 servers will be used with this repartition :
 
 * x86 server
 * RAID1 interal disk
-* 4 Ethernet NICs
+* 4 Ethernet NICs (10/25Gbits)
 * 2 FC cards
 * 2 LUNs mapped 
 
